@@ -1,0 +1,1 @@
+export { htmlWebpackPlugin } from './htmlWebpackPlugin';

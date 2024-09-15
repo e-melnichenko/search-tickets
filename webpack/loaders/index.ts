@@ -1,0 +1,1 @@
+export { tsLoader } from './tsLoader';
