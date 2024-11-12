@@ -1,8 +1,7 @@
 import path from 'path';
 import webpack from 'webpack';
-import 'webpack-dev-server'; // for devServer type
 
-export const devConfig: webpack.Configuration = {
+export const devConfig: webpack.Configuration & { devServer: unknown } = {
     mode: 'development',
     devServer: {
         port: 8080,
